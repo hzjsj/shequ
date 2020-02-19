@@ -1,0 +1,136 @@
+<extend name="common/index" />
+<block name="css">
+
+  <style type="text/css">
+    .left {
+      width: 20%;
+      float: left;
+    }
+
+    .right {
+      width: 80%;
+      float: left;
+    }
+  </style>
+</block>
+<block name="content">
+
+  <div class="left mtop">
+
+    <div class="layui-card  yjsm " style="margin-left: 15px;">
+      <div class="layui-card-body">
+        <div class="center">
+          <img src="/upload/{$Think.session.user_info.avatar}" class="layui-nav-img touxiang" alt=""
+            onerror="javascript:this.src='__TMPL__/public/shequ/images/touxiang.png';">
+          <p>{$Think.session.user_info.user_nickname}</p>
+          <p>{$Think.session.user_info.user_login}</p>
+          <div style="margin-top: 20px;border-top: 1px solid #edf1f7;">
+            <ul>
+              <li class="stop">
+                <div style=" color: #1E9FFF;">
+                  <i class="layui-icon layui-icon-release"></i>
+
+                  我的发布
+                </div>
+              </li>
+              <li class="stop">
+                <a href="{:url('user/info')}">
+                  <i class="layui-icon layui-icon-home"></i>
+                  我的资料
+                </a>
+              </li>
+              <li class="stop">
+                <a href="{:url('user/password')}">
+                  <i class="layui-icon layui-icon-password"></i>
+                  修改密码
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 右边 -->
+  <div class="right stop">
+    <volist id='vo' name='project'>
+      <div class="zuoping">
+        <a href="{:url('index/project')}?id={$vo.id}" target="_blank">
+          <img src="/upload/{$vo.image}" alt="">
+        </a>
+        <div class="bianju">
+          <p>{$vo.title}</p>
+
+          <div class="stop">
+            更新时间：{$vo.update}
+
+          </div>
+          <hr>
+          <div class="stop">
+            <a href="{:url('index/project')}?id={$vo.id}" target="_blank"><i
+                class="layui-icon layui-icon-search"></i>查看</a>
+            <span class="shuxian"></span>
+            <a onclick="bj({$vo['id']})"><i class="layui-icon layui-icon-edit"></i>编辑 </a>
+            <span class="shuxian"></span>
+            <a onclick="sc({$vo['id']})"><i class="layui-icon layui-icon-delete"></i>删除 </a>
+          </div>
+
+        </div>
+      </div>
+    </volist>
+
+
+  </div>
+
+  <div class="hotbt"> </div>
+
+</block>
+<block name="js">
+  <script>
+    function bj(id) {
+      var url = '{:url('user/editproject')}?id=' + id;
+      layer.open({
+        type: 2,
+        title: '修改',
+        shadeClose: true,
+        shade: 0.3,
+        area: ['50%', '92%'],
+        content: url //iframe的url
+      });
+    }
+    function sc(id) {
+      var id = id;
+      layer.confirm('真的删除行么', function (index) {
+        var load = layer.load(2);
+        $.ajax({
+          url: '{:url('user/delproject')}',
+          type: "post",
+          data: { id: id },
+          dataType: "json",
+          success: function (r) {
+            layer.close(load);
+            if (r.code == 1) {
+
+              layer.msg(r.msg, { icon: 1 }, function () {
+                window.location.reload();
+              });
+            } else {
+              layer.msg(r.msg, { icon: 2 }); //错误提示
+            }
+          },
+          error: function () {
+            layer.close(load);
+            layer.msg('网络错误！', { icon: 2 }); //错误提示
+          }
+       });
+
+
+    });
+   }
+  </script>
+
+
+</block>

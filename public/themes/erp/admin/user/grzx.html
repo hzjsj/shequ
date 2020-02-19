@@ -1,0 +1,212 @@
+<extend name="public/layui" />
+<block name="css">
+  <style type="text/css">
+    
+    .layui-form-item{
+      margin-bottom: 10px;
+    }
+    .layui-table-view{
+      margin:0;
+    }
+    .layui-nav-img{
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</block>
+<block name="content">
+<div class="layui-tab layui-tab-card">
+  <ul class="layui-tab-title">
+    <li class="layui-this">修改资料</li>
+    <li>修改密码</li>
+    
+  </ul>
+  <div class="layui-tab-content" style="height: 500px;">
+    <div class="layui-tab-item layui-show">
+    <div class="main">
+      <div class="card">
+        <form class="layui-form" action="">
+          <input type="hidden" name="id" value="{$admin_user_info['id']}">
+
+           <div class="layui-form-item">
+        <label class="layui-form-label">用户名</label>
+          <div class="layui-input-inline">
+            <input type="text" value="{$admin_user_info['user_login']}" required lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input" disabled>
+         </div>
+        </div>
+
+        <div class="layui-form-item">
+        <label class="layui-form-label">昵称</label>
+          <div class="layui-input-inline">  
+            <input type="text" name="nickname" value="{$admin_user_info['user_nickname']}" required lay-verify="required" placeholder="请输入昵称" autocomplete="off" class="layui-input">
+         </div>
+        </div>
+       
+        <div class="layui-form-item">
+        <label class="layui-form-label">邮箱</label>
+          <div class="layui-input-inline">
+            <input type="text" name="email" value="{$admin_user_info['user_email']}" required lay-verify="required" placeholder="请输入邮箱" autocomplete="off" class="layui-input">
+         </div>
+        </div>
+            <div class="layui-form-item">
+        <label class="layui-form-label">头像</label>
+        <div class="layui-input-inline">
+          <div class="layui-upload">
+            <button type="button" class="layui-btn" id="test3">上传头像</button>
+            <div class="layui-upload-list" id="demo1">
+              <img src="{:cmf_get_user_avatar_url($admin_user_info['avatar'])}" width="100" />
+              <input type="hidden" name="image" value="{$admin_user_info['avatar']}">
+            </div>
+          </div>
+        </div>
+      </div> 
+        
+
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+              <button class="layui-btn" lay-submit lay-filter="xgzl">提交</button>
+              <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+          </div>
+        </form>
+
+        <table id="table" lay-filter="table"></table>
+      </div>
+    </div>
+
+    </div>
+    <div class="layui-tab-item">
+    <div class="main">
+      <div class="card">
+        <form class="layui-form" action="">
+          <input type="hidden" name="id" value="{$admin_user_info['id']}">
+         <input type="hidden" name="pass" value="{$admin_user_info['user_pass']}">
+         <div class="layui-form-item">
+        <label class="layui-form-label">用户名</label>
+          <div class="layui-input-inline">
+            <input type="text" name="login" value="{$admin_user_info['user_login']}" required lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input" disabled>
+         </div>
+        </div>
+        <div class="layui-form-item">
+        <label class="layui-form-label">原密码</label>
+          <div class="layui-input-inline">  
+            <input type="password" name="pass1"  required lay-verify="required" placeholder="请输入原密码" autocomplete="off" class="layui-input">
+         </div>
+        </div>
+        <div class="layui-form-item">
+        <label class="layui-form-label">新密码</label>
+          <div class="layui-input-inline">
+            <input type="password" name="password"  required lay-verify="required" placeholder="请输入新密码" autocomplete="off" class="layui-input">
+         </div>
+        </div>
+        <div class="layui-form-item">
+        <label class="layui-form-label">确认密码</label>
+          <div class="layui-input-inline">
+            <input type="password" name="password1"  required lay-verify="required" placeholder="请再次输入密码" autocomplete="off" class="layui-input">
+         </div>
+        </div>
+       <div class="layui-form-item">
+            <div class="layui-input-block">
+              <button class="layui-btn" lay-submit lay-filter="submit">提交</button>
+              <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+          </div>
+        </form>
+      <table id="table" lay-filter="table"></table>
+      </div>
+    </div>
+    </div>
+    
+
+
+
+
+  </div>
+</div>
+    
+
+</block>
+
+<block name="js">
+  <script>
+//注意：导航 依赖 element 模块，否则无法进行功能性操作
+ layui.config({
+            base: '__TMPL__/public/assets/lib/layui-lib/js/'
+        }).use(['element','form','layer','jquery','upload'], function() {
+            var form = layui.form
+             ,upload = layui.upload
+              ,layer = layui.layer
+                ,$ = layui.jquery;
+            form.on('submit(submit)', function(data){
+              var load = layer.load(2);
+          $.ajax({
+          url:'{:url('user/xgmm')}',
+          type:"post",
+          data:data.field,
+          dataType:"json",
+          success:function(r){
+            layer.close(load);
+            if (r.code == 1) {
+              layer.msg(r.msg,{icon: 1});
+            }else{
+              layer.msg(r.msg,{icon: 5});//错误提示
+            }
+          },
+          error:function(){
+            layer.close(load);
+            layer.msg('旧密码错误！',{icon: 5});//错误提示
+          }
+        });
+              
+          return false;
+      });
+
+
+
+            form.on('submit(xgzl)', function(data){
+              var load = layer.load(2);
+          $.ajax({
+          url:'{:url('user/grzx')}',
+          type:"post",
+          data:data.field,
+          dataType:"json",
+          success:function(r){
+            layer.close(load);
+            if (r.code == 1) {
+              layer.msg(r.msg,{icon: 1});
+            }else{
+              layer.msg(r.msg,{icon: 5});//错误提示
+            }
+          },
+          error:function(){
+            layer.close(load);
+            layer.msg('网络错误！',{icon: 5});//错误提示
+          }
+        });
+              
+          return false;
+      });
+  //头像上传
+  var uploadInst = upload.render({
+    elem: '#test3'
+    ,url: '{:url('library/webuploader')}'
+    ,data: {
+        app: 'avatar',
+        filetype: 'image',
+        type: 'image/jpeg'
+    }
+    ,done: function(res){
+      //如果上传失败
+      if(res.code == 0){
+        return layer.msg('上传失败');
+      }
+      //上传成功
+      $('#demo1 input').attr('value',res.data.filepath);
+      $('#demo1 img').attr('src',res.data.url);
+    }
+  });
+
+      
+        });
+</script>
+</block>

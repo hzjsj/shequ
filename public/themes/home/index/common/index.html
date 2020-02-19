@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="__TMPL__/public/shequ/layui/css/layui.css">
+  <link rel="stylesheet" href="__TMPL__/public/shequ/css/index.css">
+  <link rel="stylesheet" href="__TMPL__/public/shequ/css/shequ.css">
+  <block name="css"></block>
+</head>
+
+<body>
+
+  <!-- 导航部分 -->
+  <div class="layui-header header header-index">
+    <div class="layui-main" style="width: 90%;">
+      <a class="logo" href="/">
+        <img src="__TMPL__/public/shequ/images/logo.png" alt="layui">
+      </a>
+      <div class="layui-form component" lay-filter="LAY-site-header-component"></div>
+      <ul class="layui-nav">
+        <li class="layui-nav-item ">
+          <a href="{:url('index/index')}">首页
+            <!-- <span class="layui-badge-dot"></span> --></a>
+        </li>
+        <li class="layui-nav-item">
+          <a href="{:url('index/projectlist')}">发现
+            <!-- <span class="layui-badge-dot"></span> --></a>
+        </li>
+        <li class="layui-nav-item layui-hide-xs">
+          <a href="http://www.fanggexia.com/" target="_blank">创作</a>
+        </li>
+
+        <li class="layui-nav-item layui-hide-xs">
+          <a href="http://hzpc.xyz/index.php/Home/index/message.html" target="_blank">留言</a>
+        </li>
+
+        <empty name="Think.session.user_info.id">
+          <li class="layui-nav-item layui-hide-xs" lay-unselect>
+            <a href="javascript:;" class="dengru">登入/注册</a>
+          </li>
+
+          <else />
+          <li class="layui-nav-item layui-hide-xs">
+            <a href="javascript:;"><img src="/upload/{$Think.session.user_info.avatar}" class="layui-nav-img"
+                onerror="javascript:this.src='__TMPL__/public/shequ/images/touxiang.png';"></a>
+            <dl class="layui-nav-child">
+              <dd lay-unselect>
+                <a href="javascript:;">{$Think.session.user_info.user_nickname}</a>
+              </dd>
+              <dd lay-unselect>
+                <a href="{:url('user/my')}">我的</a>
+              </dd>
+              <dd lay-unselect>
+                <a href="{:url('login/logout')}">退出</a>
+              </dd>
+            </dl>
+          </li>
+        </empty>
+      </ul>
+    </div>
+  </div>
+  <block name="content"></block>
+<footer class="footer mt-20">
+  <div class="container-fluid">
+    <nav> <a href="javascript:;" target="_blank">关于我们</a> <span class="pipe">|</span> <a href="javascript:;" target="_blank">联系我们</a> <span class="pipe">|</span> <a href="javascript:;" target="_blank">法律声明</a> </nav>
+    <p>Copyright &copy;2019 hzpc.xyz All Rights Reserved. <br>
+      <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">京ICP备1000000号</a><br>
+    </p>
+  </div>
+</footer>
+  <script src="__TMPL__/public/shequ/layui/layui.js" charset="utf-8"></script>
+  <script src="__TMPL__/public/shequ/js/jquery.min.js"></script>
+  <script>
+    layui.use(['element', 'form'], function () {
+      var element = layui.element;
+
+      form = layui.form;
+
+      $('.dengru').on('click', function () {
+        layer.open({
+          type: 2,
+          title: '登入/注册',
+          shadeClose: true,
+          shade: 0.8,
+          area: ['50%', '86%'],
+          content: '{:url('login/login')}' //iframe的url
+    });
+    });
+})
+  </script>
+  <block name="js"></block>
+
+
+</body>
+
+</html>

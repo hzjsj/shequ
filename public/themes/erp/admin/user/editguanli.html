@@ -1,0 +1,84 @@
+<extend name="public/layui_form" />
+<block name="css">
+    <style type="text/css">
+
+    
+    </style>
+</block>
+<block name="content">
+    <div class="main">
+            <form class="layui-form" action="">
+          <input type="hidden" name="id" value="{$data.id}">  
+        <div class="layui-form-item">
+        <label class="layui-form-label">昵称</label>
+          <div class="layui-input-inline">
+            <input type="text" name="nickname" value="{$data.user_nickname}" required lay-verify="required" placeholder="请输入昵称" autocomplete="off" class="layui-input">
+         </div>
+        </div>
+         <div class="layui-form-item">
+                <label class="layui-form-label">分组</label>
+                <div class="layui-input-inline">
+                  <select name="group_id">
+                  <option value=""></option>
+                    <volist name='group' id='vo'>
+                    <option value="{$vo.id}"<if condition="$vo['id'] eq $group_id">selected </if>>{$vo.title}</option>
+                    </volist>
+                  </select>
+                </div>
+         </div>
+      
+        <div class="layui-form-item">
+        <label class="layui-form-label">账号</label>
+          <div class="layui-input-inline">
+            <input type="text" name="login" value="{$data.user_login}" required lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input">
+         </div>
+        </div>
+          <div class="layui-form-item">
+                    <label class="layui-form-label">密码</label>
+                    <div class="layui-input-inline">
+                        <input type="password" name="pass" required placeholder="请输入密码" autocomplete="off" class="layui-input">
+                    </div>
+                     <div class="layui-form-mid layui-word-aux">留空不修改密码</div>
+                </div>
+      
+        <div class="layui-form-item">
+        <label class="layui-form-label">邮箱</label>
+          <div class="layui-input-inline">
+            <input type="text" name="email" value="{$data.user_email}" required  placeholder="请输入邮箱" autocomplete="off" class="layui-input">
+         </div>
+        </div>
+              <div class="layui-form-item">
+          <label class="layui-form-label">性别</label>
+          <div class="layui-input-block">
+            <input type="radio" name="sex" value="1" title="男" <if condition="$data['sex'] eq 1">checked </if>>
+            <input type="radio" name="sex" value="2" title="女" <if condition="$data['sex'] eq 2">checked </if>>
+          </div>
+        
+
+            <div class="k-fixbar-btns">
+            <button class="layui-btn" onclick="" lay-submit="" lay-filter="submit" id="submit">保存</button>
+            </div>
+            </form>
+            <table id="table" lay-filter="table"></table>
+    </div>
+</block>
+<block name="js">
+    <script>
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.config({
+        base: '__TMPL__/public/assets/lib/layui-lib/js/'
+    }).use(['form', 'layer', 'jquery','kform'], function() {
+        var form = layui.form,
+            layer = layui.layer,
+            $ = layui.jquery;
+             var kform = layui.kform;
+        kform.set({
+            url:'{:url('user/editguanli')}',
+          success:function(r){
+            parent.action.refresh()
+          }
+        }).init();
+
+    });
+    </script>
+</block>

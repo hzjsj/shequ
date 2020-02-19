@@ -1,0 +1,110 @@
+<extend name="public/layui" />
+<block name="css">
+    <style type="text/css">
+    .layui-fluid{
+      padding: 10px;
+    }
+    </style>
+</block>
+<block name="content">
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-header">网站设置</div>
+          <div class="layui-card-body" pad15>
+            
+            <div class="layui-form" wid100 lay-filter="">
+              <div class="layui-form-item">
+                <label class="layui-form-label">网站名称</label>
+                <div class="layui-input-block">
+                  <input type="text" name="options[site_name]" value="{$site_info.site_name|default=''}" class="layui-input">
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <label class="layui-form-label">网站域名</label>
+                <div class="layui-input-block">
+                  <input type="text" name="options[web]" lay-verify="url" value="{$site_info.web|default=''}" class="layui-input">
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <label class="layui-form-label">缓存时间</label>
+                <div class="layui-input-inline" style="width: 80px;">
+                  <input type="text" name="options[cache]" lay-verify="number" value="{$site_info.cache|default=''}" class="layui-input">
+                </div>
+                <div class="layui-input-inline layui-input-company">分钟</div>
+                <div class="layui-form-mid layui-word-aux">本地开发一般推荐设置为 0，线上环境建议设置为 10。</div>
+              </div>
+              <div class="layui-form-item">
+                <label class="layui-form-label">最大文件上传</label>
+                <div class="layui-input-inline" style="width: 80px;">
+                  <input type="text" name="options[max_file]" lay-verify="number" value="{$site_info.max_file|default=''}" class="layui-input">
+                </div>
+                <div class="layui-input-inline layui-input-company">KB</div>
+                <div class="layui-form-mid layui-word-aux">提示：1 M = 1024 KB</div>
+              </div>
+              <div class="layui-form-item">
+                <label class="layui-form-label">上传文件类型</label>
+                <div class="layui-input-block">
+                  <input type="text" name="options[file_type]" value="{$site_info.file_type|default=''}" class="layui-input">
+                </div>
+              </div>
+              
+              <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">首页标题</label>
+                <div class="layui-input-block">
+                  <textarea name="options[site_title]" class="layui-textarea">{$site_info.site_title|default=''}</textarea>
+                </div>
+              </div>
+              <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">META关键词</label>
+                <div class="layui-input-block">
+                  <textarea name="options[site_keywords]" class="layui-textarea" placeholder="多个关键词用英文状态 , 号分割">{$site_info.site_keywords|default=''}</textarea>
+                </div>
+              </div>
+              <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">META描述</label>
+                <div class="layui-input-block">
+                  <textarea name="options[site_descript]" class="layui-textarea">{$site_info.site_descript|default=''}</textarea>
+                </div>
+              </div>
+              <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">版权信息</label>
+                <div class="layui-input-block">
+                  <textarea name="options[copyright]" class="layui-textarea">{$site_info.copyright|default=''}</textarea>
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <div class="layui-input-block">
+                  <button class="layui-btn" lay-submit lay-filter="submit">确认保存</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</block>
+<block name="js">
+  <script>
+      var _tools;
+      layui.config({
+          base: '__TMPL__/public/assets/lib/layui-lib/js/'
+      }).use(['app','jquery','layer','element','form','kform'], function() {
+          var app = layui.app,
+              layer = layui.layer,
+              $ = layui.jquery;
+          var element = layui.element,
+              kform = layui.kform;
+          kform.set({
+            url:'{:url('setting/site')}',
+            success:function(r){
+              parent.action.refresh()
+            }            
+          }).init();
+      });
+          
+  </script>
+</block>

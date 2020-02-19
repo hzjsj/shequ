@@ -1,0 +1,39 @@
+<extend name="common/index" />
+<block name="css">
+  <style type="text/css">
+
+  </style>
+</block>
+<block name="content">
+  <volist name='projectlist' id='vo'>
+    <div class="hotzp">
+      <a href="{:url('index/project')}?id={$vo.id}">
+        <img src="/upload/{$vo.image}" alt="">
+      </a>
+      <div class="bianju">
+        <p>{$vo.title}</p>
+        <div class="tubiao">
+          <i class="layui-icon layui-icon-search"></i> {$vo.browse}
+          <i class="layui-icon layui-icon-praise" style="margin-left: 10px;"></i> {$vo.browse}
+        </div>
+        <div class="txbt">
+          <div class="zptx">
+            <img src="/upload/{$vo.avatar}" class="layui-nav-img"
+              onerror="javascript:this.src='__TMPL__/public/shequ/images/touxiang.png';">
+          </div>
+          <p>王小龙</p>
+        </div>
+      </div>
+    </div>
+  </volist>
+  <div class="hotbt"></div>
+</block>
+
+<block name="js">
+<script>
+  $(document).ready(function(){
+    $(".layui-nav li:nth-child(2)").addClass("layui-this");
+
+  });
+</script>
+</block>

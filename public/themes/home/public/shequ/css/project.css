@@ -1,0 +1,56 @@
+body{
+  background-color: #F2F2F2;
+}
+.kpbj{
+  margin: 30px 1% 20px;
+  height: 680px;
+}
+.txbt{
+  margin-top: 10px;
+}
+
+.txbt .layui-nav-img{ 
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+.txbt p{
+  margin-right: 10px;
+  float: left;
+  color: #999;
+}
+.biaoti{
+  margin-top: 20px;
+}
+#zpjs{
+  height: 532px;  overflow: scroll;
+}
+
+.overflowTest {
+    /*background: #4CAF50;*/
+  /*  color: white;*/
+    padding: 15px;
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+   /* border: 1px solid #ccc;*/
+}
+.zptp{
+  float: left;width: 60%;margin:1%;height:582px;
+}
+.zpxx{
+  float: right;width: 36%;margin:1%;height:582px;
+}
+.zpname{
+  color: #333333;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.zpnr{
+  color: #666666;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    line-height: 19px;
+    margin-bottom: 25px;
+}

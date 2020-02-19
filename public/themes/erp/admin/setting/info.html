@@ -1,0 +1,159 @@
+<extend name="public/layui" />
+<block name="css">
+    <style type="text/css">
+    .layui-fluid{
+      padding: 10px;
+    }
+    </style>
+</block>
+<block name="content">
+   <!--  <div class="main"> -->
+
+  <div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+      <div class="layui-col-md12">
+        <div class="layui-card">
+          <div class="layui-card-header">设置我的资料</div>
+          <div class="layui-card-body" pad15>
+            
+            <div class="layui-form" lay-filter="">
+              <div class="layui-form-item">
+                <label class="layui-form-label">用户名</label>
+                <div class="layui-input-inline">
+                  <input type="text" name="user_login" value="{$info.user_login}" readonly class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">不可修改。一般用于后台登入名</div>
+              </div>
+              <div class="layui-form-item">
+                <label class="layui-form-label">昵称</label>
+                <div class="layui-input-inline">
+                  <input type="text" name="user_nickname" value="{$info.user_nickname}" lay-verify="nickname" autocomplete="off" placeholder="请输入昵称" class="layui-input">
+                </div>
+              </div>
+
+
+
+
+              <div class="layui-form-item">
+                <label class="layui-form-label">性别</label>
+                <div class="layui-input-block">
+                  <input type="radio" name="sex" value="1" title="男" <if condition="$info['sex'] eq 1">checked </if>>
+                  <input type="radio" name="sex" value="2" title="女" <if condition="$info['sex'] eq 2">checked </if>>
+                </div>
+              </div>
+<!--               <div class="layui-form-item">
+                <label class="layui-form-label">头像</label>
+                <div class="layui-input-inline">
+                  <input name="avatar" lay-verify="required" id="LAY_avatarSrc" placeholder="图片地址" value="http://cdn.layui.com/avatar/168.jpg" class="layui-input">
+                </div>
+                <div class="layui-input-inline layui-btn-container" style="width: auto;">
+                  <button type="button" class="layui-btn layui-btn-primary" id="LAY_avatarUpload">
+                    <i class="layui-icon">&#xe67c;</i>上传图片
+                  </button>
+                  <button class="layui-btn layui-btn-primary" layadmin-event="avartatPreview">查看图片</button >
+                </div>
+             </div> -->
+                 <div class="layui-form-item">
+      <label class="layui-form-label">头像</label>
+      <div class="layui-input-inline">
+        <input lay-verify="required" id="LAY_avatarSrc" placeholder="图片地址" class="layui-input" value="{$info.avatar_src}">
+        <input type="hidden" name="image" value="{$info.avatar}" id="image">
+      </div>
+      <div class="layui-input-inline layui-btn-container" style="width: auto;">
+        <button type="button" class="layui-btn layui-btn-primary" id="test3">
+          <i class="layui-icon">&#xe67c;</i>上传图片
+        </button>
+        <button type="button" class="layui-btn layui-btn-primary chakan">查看图片</button>
+
+      </div>
+    </div>
+
+              <div class="layui-form-item">
+                <label class="layui-form-label">手机</label>
+                <div class="layui-input-inline">
+                  <input type="text" name="mobile" value="{$info.mobile}" lay-verify="phone" autocomplete="off" class="layui-input">
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <label class="layui-form-label">邮箱</label>
+                <div class="layui-input-inline">
+                  <input type="text" name="user_email" value="{$info.user_email}" lay-verify="email" autocomplete="off" class="layui-input">
+                </div>
+              </div>
+              <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">个性签名</label>
+                <div class="layui-input-block">
+                  <textarea name="signature" placeholder="请输入个性签名" class="layui-textarea">{$info.signature}</textarea>
+                </div>
+              </div>
+              <div class="layui-form-item">
+                <div class="layui-input-block">
+                  <button class="layui-btn" lay-submit lay-filter="submit">确认修改</button>
+                  <button type="reset" class="layui-btn layui-btn-primary">重新填写</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</block>
+<block name="js">
+    <script>
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.config({
+        base: '__TMPL__/public/assets/lib/layui-lib/js/'
+    }).use(['form', 'upload', 'jquery','kform'], function() {
+        var form = layui.form,
+            upload = layui.upload,
+            $ = layui.jquery;
+             var kform = layui.kform;
+        kform.set({
+            url:'{:url('setting/info')}',
+          success:function(r){
+            parent.action.refresh()
+          }
+        }).init();
+
+            //头像上传
+      var uploadInst = upload.render({
+        elem: '#test3'
+        , url: '{:url('setting/webuploader')}'
+        , data: {
+          app: 'avatar',
+          filetype: 'image',
+          type: 'image/jpeg'
+        }
+        , done: function (res) {
+          //如果上传失败
+          if (res.code == 0) {
+            return layer.msg('上传失败');
+          }
+          layer.msg('上传成功');
+          var tupian = res.data.url;
+          //上传成功
+          $('#image').attr('value', res.data.filepath);
+          $('#LAY_avatarSrc').attr('value', res.data.url);
+        }
+  });
+
+
+    $('.chakan').on('click', function () {
+      var a = ($("#LAY_avatarSrc").val());
+
+      layer.photos({
+        photos: {
+          title: "查看头像",
+          data: [{
+            src: a
+          }]
+        }
+        , anim: 5 //0-6的选择，指定弹出图片动画类型，默认随机（请注意，3.0之前的版本用shift参数）
+      });
+    });
+
+    });
+    </script>
+</block>

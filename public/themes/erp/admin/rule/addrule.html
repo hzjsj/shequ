@@ -1,0 +1,58 @@
+<extend name="public/layui_form" />
+<block name="css">
+    <style type="text/css"></style>
+</block>
+<block name="content">
+    <div class="main">
+            <form class="layui-form" action="">
+            <div class="layui-form-item">
+                <label class="layui-form-label">父级节点</label>
+                <div class="layui-input-inline">
+                  <select name="pid" lay-verify="required">
+                     <option value="0">作为顶级节点</option>
+                    <volist name='getauth_rule' id='vo'>
+                    <option value="{$vo.id}" <if condition="$vo['id'] eq $auth_rule['id']">selected </if>>{$vo.title}</option>
+                    </volist>
+                  </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                    <label class="layui-form-label">名称</label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="title"  required lay-verify="required" placeholder="请输入名称" autocomplete="off" class="layui-input">
+                    </div>
+            </div>
+
+            <div class="layui-form-item">
+                    <label class="layui-form-label">规则</label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="name" required placeholder="请输入规则" autocomplete="off" class="layui-input">
+                    </div>
+            </div>
+                <div class="k-fixbar-btns">
+                    <button class="layui-btn" onclick="" lay-submit="" lay-filter="submit" id="submit">保存</button>
+                </div>
+            </form>
+            <table id="table" lay-filter="table"></table>
+    </div>
+</block>
+<block name="js">
+    <script>
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.config({
+        base: '__TMPL__/public/assets/lib/layui-lib/js/'
+    }).use(['form', 'layer', 'jquery','kform'], function() {
+        var form = layui.form,
+            layer = layui.layer,
+            $ = layui.jquery;
+             var kform = layui.kform;
+        kform.set({
+            url:'{:url('rule/addrule')}',
+          success:function(r){
+            parent.action.refresh()
+          }
+        }).init();
+
+    });
+    </script>
+</block>

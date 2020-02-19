@@ -1,0 +1,84 @@
+<extend name="public/layui" />
+<block name="css">
+	<style type="text/css">
+		body{
+			background-color: #fff;
+		}
+		h1,h2,h3{font-size: 14px;}
+		::-webkit-input-placeholder{color: #999}
+				/* 布局 */
+		.setting-inline{font-size: 0;}
+		.setting-tree, .setting-content{display: inline-block;  *display:inline; *zoom:1; vertical-align: top; font-size: 14px;}
+		.setting-tree{width: 220px; min-height: 900px; padding: 5px 0 20px;}
+		.setting-content{width: 899px; min-height: 900px; padding: 20px 0 10px 20px;}
+		/* 文档 */
+		.setting-tree{border-right: 1px solid #eee; }
+		.setting-tree .layui-tree{line-height: 32px;}
+		.setting-tree .layui-tree li i{position: relative; font-size: 22px; color: #000}
+		.setting-tree .layui-tree li a cite{padding: 0 8px;}
+		.setting-tree .layui-tree .setting-tree-noicon a cite{padding-left: 15px;}
+		.setting-tree .layui-tree li a em{font-size: 12px; color: #bbb; padding-right: 5px; font-style: normal;}
+		.setting-tree .layui-tree li h2{line-height: 36px; border-left: 5px solid #009E94; margin: 15px 0 5px; padding: 0 10px; background-color: #f2f2f2;}
+		.setting-tree .layui-tree li ul{margin-left: 27px; line-height: 28px;}
+		.setting-tree .layui-tree li ul a,
+		.setting-tree .layui-tree li ul a i{color: #777;}
+		.setting-tree .layui-tree li ul a:hover{color: #333;}
+		.setting-tree .layui-tree li ul li{margin-left: 25px; overflow: visible; list-style-type: disc; /*list-style-position: inside;*/}
+		.setting-tree .layui-tree li ul li cite,
+		.setting-tree .layui-tree .setting-tree-noicon ul li cite{padding-left: 0;}
+
+		.setting-tree .layui-tree .layui-this a{color: #01AAED;}
+		.setting-tree .layui-tree .layui-this .layui-icon{color: #01AAED;}
+
+		.setting-fix .setting-tree{position: fixed; top: 0; bottom: 0; z-index: 666; min-height: 0; overflow: auto;  background-color: #fff;}
+		.setting-fix .setting-content{margin-left: 220px;}
+		.setting-fix-footer .setting-tree{/*margin-bottom: 120px;*/}
+
+
+		.setting-title{ margin: 30px 0 20px;}
+		.setting-title fieldset{border: none; padding: 0; border-top: 1px solid #eee;}
+		.setting-title fieldset legend{margin-left: 20px;  padding: 0 10px; font-size: 22px; font-weight: 300;}
+
+		.setting-text a{color: #01AAED;}
+		.setting-h1{margin-bottom: 20px; line-height: 60px; padding-bottom: 10px; color: #393D49; border-bottom: 1px solid #eee;  font-size: 28px; font-weight: 300;}
+		.setting-h1 .layui-icon{position: relative; top: 5px; font-size: 35px; margin-right: 10px;}
+		.setting-text{position:relative;}
+		.setting-text p{margin-bottom: 10px;  line-height:22px;}
+		.setting-text em{padding: 0 3px; font-weight: 500; font-style: italic; color: #666;}
+		.setting-text code{margin:0 5px; padding: 3px 10px; border: 1px solid #e2e2e2; background-color: #fbfbfb; color: #666; border-radius: 2px;}
+
+		.setting-table{width: 100%; margin: 10px 0;}
+		.setting-table thead{background-color:#f2f2f2; }
+		.setting-table th, 
+		.setting-table td{padding: 6px 15px; min-height: 20px; line-height: 20px; border:1px solid #ddd; font-size: 14px; font-weight: 400;}
+		.setting-table tr:nth-child(even){background: #fbfbfb;}
+
+		.setting-block{padding: 20px; border: 1px solid #eee;}
+		.setting-block .layui-form{margin-right: 200px;}
+	</style>
+</block>
+<block name="content">
+    <div class="layui-main setting-inline">
+        <div class="setting-tree">
+            <ul class="layui-tree">
+                <li><h2>基础说明</h2></li>
+                <li class="setting-tree-noicon layui-this">
+                    <a href="/doc/">
+							        <cite>开始使用</cite>
+							        <em>Getting Started</em>
+							      </a>
+                </li>
+                <li class="setting-tree-noicon ">
+                    <a href="/doc/base/infrastructure.html">
+							        <cite>底层方法</cite>
+							        <em>基础支撑</em>
+							      </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="setting-content">
+            123
+        </div>
+    </div>
+</block>

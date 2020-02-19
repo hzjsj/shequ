@@ -1,0 +1,48 @@
+<extend name="public/layui_form" />
+<block name="css">
+    <style type="text/css">
+
+    
+    </style>
+</block>
+<block name="content">
+    <div class="main">
+            <form class="layui-form" action="">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">标题</label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="title" required lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item layui-form-text">
+                  <label class="layui-form-label">内容</label>
+                  <div class="layui-input-block">
+                    <textarea name="content" placeholder="请输入内容" class="layui-textarea"></textarea>
+                  </div>
+                </div>
+                <div class="k-fixbar-btns">
+                    <button class="layui-btn" onclick="" lay-submit="" lay-filter="submit" id="submit">保存</button>
+                </div>
+            </form>
+            <table id="table" lay-filter="table"></table>
+    </div>
+</block>
+<block name="js">
+    <script>
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.config({
+        base: '__TMPL__/public/assets/lib/layui-lib/js/'
+    }).use(['form', 'layer', 'jquery','kform'], function() {
+        var form = layui.form,
+            layer = layui.layer,
+            $ = layui.jquery;
+        var kform = layui.kform;
+        kform.set({
+          success:function(r){
+            parent.action.refresh()
+          }
+        }).init();
+
+    });
+    </script>
+</block>

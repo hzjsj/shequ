@@ -1,0 +1,61 @@
+ .header {
+  height: 59px;
+  border-bottom: 1px solid #404553;
+  background-color: #393d49;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  top: 16px;
+}
+.logo img {
+  /*width: 82px;*/
+  height: 31px;
+}
+
+.header .layui-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+  background: none;
+}
+.header .layui-nav .layui-nav-item {
+  margin: 0 20px;
+}
+.header .layui-nav .layui-nav-item[mobile] {
+  display: none;
+}
+
+.header .layui-container .logo {
+  left: 15px;
+}
+.header .layui-container .layui-nav {
+  right: 15px;
+}
+.header-index {
+  background-color: #05031a;
+  border: none;
+}
+/*导航结束*/
+/*页脚*/
+.footer{margin-top:20px; padding:15px 0;font-family:tahoma,Arial;font-size:12px;color:#999;line-height:22px;text-align:center}
+.footer a,.footer a:hover{color:#999}
+/*页脚结束*/
+
+
+.stop{
+    margin-top: 10px;
+}
+.mtop{
+    margin-top: 20px;
+}
+.ltop{
+    margin-top: 30px;
+}
+.shuxian{
+  width: 1px;
+  height: 16px;
+  border-left: 1px solid #eeeeee;
+  box-sizing: border-box;margin: 0 10px;
+}

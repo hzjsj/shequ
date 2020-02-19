@@ -1,0 +1,86 @@
+<extend name="public/layui_form" />
+<block name="css">
+    <style type="text/css">
+
+    
+    </style>
+</block>
+<block name="content">
+     <div class="main">
+            <form class="layui-form" action="" style="height: 500px;"> 
+             <input type="hidden" name="role[id]" value="{$data.id}"> 
+                <div class="layui-form-item">
+                <label class="layui-form-label">角色名称</label>
+                  <div class="layui-input-inline">
+                    <input type="text" name="role[title]" value="{$data.title}" required lay-verify="required" placeholder="请输入角色名称" autocomplete="off" class="layui-input">
+                 </div>
+                </div>
+                <div class="layui-form-item">
+        <label class="layui-form-label">权限配置</label>
+        <div class="layui-input-block">
+           <div id="test12" class="demo-tree-more"></div>
+        </div>
+        </div>
+         <div class="layui-form-item">
+          <label class="layui-form-label">状态</label>
+          <div class="layui-input-block">
+            <input type="radio" name="role[status]" value="1" title="正常"
+                <if condition="$data['status'] eq 1">checked </if>>
+            <input type="radio" name="role[status]" value="0" title="禁用" <if condition="$data['status'] eq 0">checked </if>>
+          </div>
+        </div>
+        <div class="layui-form-item layui-form-text">
+          <label class="layui-form-label">备注</label>
+          <div class="layui-input-block" style="width:260px;">
+            <textarea name="role[remark]" placeholder="请输入备注" class="layui-textarea">{$data.remark}</textarea>
+          </div>
+        </div>
+
+            <div class="k-fixbar-btns">
+                    <button class="layui-btn" onclick="" lay-submit="" lay-filter="submit" id="submit">保存</button>
+                </div>
+            </form>
+            <table id="table" lay-filter="table"></table>
+    </div>
+</block>
+<block name="js">
+    <script>
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.config({
+        base: '__TMPL__/public/assets/lib/layui-lib/js/'
+    }).use(['form', 'layer', 'jquery','kform','tree','util'], function() {
+        var tree = layui.tree,util = layui.util;
+        var form = layui.form,
+            layer = layui.layer,
+            $ = layui.jquery;
+             var kform = layui.kform;
+        kform.set({
+            url:'{:url('rule/editrole')}',
+          success:function(r){
+            parent.action.refresh()
+          }
+        }).init();
+
+    $.ajax({
+      url: '{:url('rule/hqqx')}',
+      dataType: 'json',
+      success: function(data){
+        //基本演示
+        tree.render({
+          elem: '#test12'
+          ,data: data.data
+          ,showCheckbox: true  //是否显示复选框
+          ,id: 'demoId1'
+          //,isJump: true //是否允许点击节点时弹出新窗口跳转
+          // ,click: function(obj){
+          //   var data = obj.data;  //获取当前点击的节点数据
+          //   layer.msg('状态：'+ obj.state + '<br>节点数据：' + JSON.stringify(data));
+          // }
+        });
+        tree.setChecked('demoId1',[{$data.rules}]); //勾选指定节点
+        }
+    });
+
+    });
+    </script>
+</block>

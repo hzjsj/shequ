@@ -1,0 +1,1835 @@
+---------------------------------------------------------------
+[ 2020-02-19T13:31:38+08:00 ] 127.0.0.1 GET /
+[ info ] shequ.cn/ [运行时间：0.818480s][吞吐率：1.22req/s] [内存消耗：3,301.70kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'shequ.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:31:41+08:00 ] 127.0.0.1 GET /
+[ info ] shequ.cn/ [运行时间：0.124152s][吞吐率：8.05req/s] [内存消耗：3,301.70kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'shequ.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:31:46+08:00 ] 127.0.0.1 GET /
+[ info ] shequ.cn/ [运行时间：0.125627s][吞吐率：7.96req/s] [内存消耗：3,302.03kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'shequ.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:32:03+08:00 ] 127.0.0.1 GET /
+[ info ] shequ.cn/ [运行时间：0.136546s][吞吐率：7.32req/s] [内存消耗：3,301.70kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'shequ.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:33:35+08:00 ] 127.0.0.1 GET /
+[ info ] shequ.cn/ [运行时间：0.138580s][吞吐率：7.22req/s] [内存消耗：3,295.41kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:33:37+08:00 ] 127.0.0.1 GET /index/index/projectlist.html
+[ info ] shequ.cn/index/index/projectlist.html [运行时间：0.171835s][吞吐率：5.82req/s] [内存消耗：3,256.20kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'projectlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->projectlist[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\projectlist.html [ array (
+  0 => 'site_info',
+  1 => 'projectlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:18+08:00 ] 127.0.0.1 GET /index/index/project.html?id=5
+[ info ] shequ.cn/index/index/project.html?id=5 [运行时间：0.199356s][吞吐率：5.02req/s] [内存消耗：3,252.15kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'project',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/index/projectlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->project[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\project.html [ array (
+  0 => 'site_info',
+  1 => 'comment',
+  2 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:23+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] shequ.cn/index/index/index.html [运行时间：0.164967s][吞吐率：6.06req/s] [内存消耗：3,299.59kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/index/project.html?id=5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:28+08:00 ] 127.0.0.1 GET /admin
+[ info ] shequ.cn/admin [运行时间：0.152479s][吞吐率：6.56req/s] [内存消耗：2,025.70kb] [文件加载：46]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:28+08:00 ] 127.0.0.1 GET /admin/public/login.html
+[ info ] shequ.cn/admin/public/login.html [运行时间：0.095858s][吞吐率：10.43req/s] [内存消耗：2,479.22kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ E:\project\php\shequ\app\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] themes/erp/admin\\login.html [ array (
+  0 => 'site_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:29+08:00 ] 127.0.0.1 GET /captcha/new.html?height=36&width=146&font_size=18
+[ info ] shequ.cn/captcha/new.html?height=36&width=146&font_size=18 [运行时间：1.104417s][吞吐率：0.91req/s] [内存消耗：1,804.05kb] [文件加载：40]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\cmf\\controller\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/public/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'height' => '36',
+  'width' => '146',
+  'font_size' => '18',
+)
+[ info ] [ RUN ] cmf\controller\CaptchaController->index[ E:\project\php\shequ\base\controller\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:37+08:00 ] 127.0.0.1 POST /admin/public/dologin.html
+[ info ] shequ.cn/admin/public/dologin.html [运行时间：0.205886s][吞吐率：4.86req/s] [内存消耗：3,061.98kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/public/login.html',
+  'origin' => 'http://shequ.cn',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '56',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'sw6p',
+  '_captcha_id' => '',
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ RUN ] app\admin\controller\PublicController->doLogin[ E:\project\php\shequ\app\admin\controller\PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:37+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] shequ.cn/admin/index/index.html [运行时间：0.288854s][吞吐率：3.46req/s] [内存消耗：3,249.15kb] [文件加载：65]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/public/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ E:\project\php\shequ\app\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] themes/erp/admin\\index.html [ array (
+  0 => 'admin_user_info',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:38+08:00 ] 127.0.0.1 GET /admin/index/welcome.html
+[ info ] shequ.cn/admin/index/welcome.html [运行时间：0.115747s][吞吐率：8.64req/s] [内存消耗：3,101.24kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\IndexController->welcome[ E:\project\php\shequ\app\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] themes/erp/admin\index\welcome.html [ array (
+  0 => 'admin_user_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:42+08:00 ] 127.0.0.1 GET /admin/index/baidu.html
+[ info ] shequ.cn/admin/index/baidu.html [运行时间：0.162064s][吞吐率：6.17req/s] [内存消耗：2,889.66kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'baidu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:44+08:00 ] 127.0.0.1 GET /admin/notice/index.html
+[ info ] shequ.cn/admin/notice/index.html [运行时间：0.107970s][吞吐率：9.26req/s] [内存消耗：3,200.85kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\NoticeController->index[ E:\project\php\shequ\app\admin\controller\NoticeController.php ]
+[ info ] [ VIEW ] themes/erp/admin\notice\index.html [ array (
+  0 => 'admin_user_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:44+08:00 ] 127.0.0.1 GET /admin/notice/index.html?is_ajax=1&page=1&limit=30
+[ info ] shequ.cn/admin/notice/index.html?is_ajax=1&page=1&limit=30 [运行时间：0.222236s][吞吐率：4.50req/s] [内存消耗：2,980.78kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/notice/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'is_ajax' => '1',
+  'page' => '1',
+  'limit' => '30',
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\NoticeController->index[ E:\project\php\shequ\app\admin\controller\NoticeController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:46+08:00 ] 127.0.0.1 GET /admin/setting/site.html
+[ info ] shequ.cn/admin/setting/site.html [运行时间：0.128700s][吞吐率：7.77req/s] [内存消耗：3,256.13kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting',
+    2 => 'site',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\SettingController->site[ E:\project\php\shequ\app\admin\controller\SettingController.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] themes/erp/admin\setting\site.html [ array (
+  0 => 'admin_user_info',
+  1 => 'site_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:47+08:00 ] 127.0.0.1 GET /admin/user/index.html
+[ info ] shequ.cn/admin/user/index.html [运行时间：0.164501s][吞吐率：6.08req/s] [内存消耗：3,221.64kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\UserController->index[ E:\project\php\shequ\app\admin\controller\UserController.php ]
+[ info ] [ VIEW ] themes/erp/admin\user\index.html [ array (
+  0 => 'admin_user_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:48+08:00 ] 127.0.0.1 GET /admin/user/index.html?is_ajax=1&page=1&limit=10
+[ info ] shequ.cn/admin/user/index.html?is_ajax=1&page=1&limit=10 [运行时间：0.143681s][吞吐率：6.96req/s] [内存消耗：3,081.63kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/user/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'is_ajax' => '1',
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\UserController->index[ E:\project\php\shequ\app\admin\controller\UserController.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:48+08:00 ] 127.0.0.1 GET /admin/rule/role.html
+[ info ] shequ.cn/admin/rule/role.html [运行时间：0.105469s][吞吐率：9.48req/s] [内存消耗：3,209.46kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rule',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Admin\controller\RuleController->role[ E:\project\php\shequ\app\admin\controller\RuleController.php ]
+[ info ] [ VIEW ] themes/erp/admin\rule\role.html [ array (
+  0 => 'admin_user_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:49+08:00 ] 127.0.0.1 GET /admin/rule/role.html?is_ajax=1&page=1&limit=10
+[ info ] shequ.cn/admin/rule/role.html?is_ajax=1&page=1&limit=10 [运行时间：0.118222s][吞吐率：8.46req/s] [内存消耗：2,995.06kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rule',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/rule/role.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'is_ajax' => '1',
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Admin\controller\RuleController->role[ E:\project\php\shequ\app\admin\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:49+08:00 ] 127.0.0.1 GET /admin/rule/index.html
+[ info ] shequ.cn/admin/rule/index.html [运行时间：0.110311s][吞吐率：9.07req/s] [内存消耗：3,214.84kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Admin\controller\RuleController->index[ E:\project\php\shequ\app\admin\controller\RuleController.php ]
+[ info ] [ VIEW ] themes/erp/admin\rule\index.html [ array (
+  0 => 'admin_user_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:50+08:00 ] 127.0.0.1 POST /admin/rule/index.html?is_ajax=1
+[ info ] shequ.cn/admin/rule/index.html?is_ajax=1 [运行时间：0.111813s][吞吐率：8.94req/s] [内存消耗：3,002.91kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/rule/index.html',
+  'origin' => 'http://shequ.cn',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '16',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'is_ajax' => '1',
+  'page' => '1',
+  'limit' => '120',
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Admin\controller\RuleController->index[ E:\project\php\shequ\app\admin\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:52+08:00 ] 127.0.0.1 GET /admin/setting/info.html
+[ info ] shequ.cn/admin/setting/info.html [运行时间：0.167643s][吞吐率：5.97req/s] [内存消耗：3,286.46kb] [文件加载：65]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\SettingController->info[ E:\project\php\shequ\app\admin\controller\SettingController.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] themes/erp/admin\setting\info.html [ array (
+  0 => 'admin_user_info',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:34:53+08:00 ] 127.0.0.1 GET /admin/setting/password.html
+[ info ] shequ.cn/admin/setting/password.html [运行时间：0.106710s][吞吐率：9.37req/s] [内存消耗：3,188.98kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting',
+    2 => 'password',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\project\php\shequ\public/../app/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\SettingController->password[ E:\project\php\shequ\app\admin\controller\SettingController.php ]
+[ info ] [ VIEW ] themes/erp/admin\setting\password.html [ array (
+  0 => 'admin_user_info',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:45:47+08:00 ] 127.0.0.1 GET /
+[ info ] shequ.cn/ [运行时间：0.210163s][吞吐率：4.76req/s] [内存消耗：3,299.77kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:45:50+08:00 ] 127.0.0.1 GET /
+[ info ] shequ.cn/ [运行时间：0.173052s][吞吐率：5.78req/s] [内存消耗：3,299.77kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:45:51+08:00 ] 127.0.0.1 GET /index/login/login.html
+[ info ] shequ.cn/index/login/login.html [运行时间：0.204894s][吞吐率：4.88req/s] [内存消耗：2,486.63kb] [文件加载：58]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\LoginController->login[ E:\project\php\shequ\app\index\controller\LoginController.php ]
+[ info ] [ VIEW ] themes/home/index\login\login.html [ array (
+  0 => 'site_info',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:45:51+08:00 ] 127.0.0.1 GET /captcha/new.html?height=35&width=107&font_size=14
+[ info ] shequ.cn/captcha/new.html?height=35&width=107&font_size=14 [运行时间：0.158480s][吞吐率：6.31req/s] [内存消耗：1,807.97kb] [文件加载：40]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\cmf\\controller\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'height' => '35',
+  'width' => '107',
+  'font_size' => '14',
+)
+[ info ] [ RUN ] cmf\controller\CaptchaController->index[ E:\project\php\shequ\base\controller\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:45:52+08:00 ] 127.0.0.1 GET /captcha/new.html?height=35&width=107&font_size=14&time=0.013084634068085466
+[ info ] shequ.cn/captcha/new.html?height=35&width=107&font_size=14&time=0.013084634068085466 [运行时间：0.045357s][吞吐率：22.05req/s] [内存消耗：1,808.34kb] [文件加载：40]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\cmf\\controller\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'height' => '35',
+  'width' => '107',
+  'font_size' => '14',
+  'time' => '0.013084634068085466',
+)
+[ info ] [ RUN ] cmf\controller\CaptchaController->index[ E:\project\php\shequ\base\controller\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:10+08:00 ] 127.0.0.1 GET /
+[ info ] shequ.cn/ [运行时间：0.124053s][吞吐率：8.06req/s] [内存消耗：3,300.46kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:11+08:00 ] 127.0.0.1 GET /index/login/login.html
+[ info ] shequ.cn/index/login/login.html [运行时间：0.087683s][吞吐率：11.40req/s] [内存消耗：2,487.54kb] [文件加载：58]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\LoginController->login[ E:\project\php\shequ\app\index\controller\LoginController.php ]
+[ info ] [ VIEW ] themes/home/index\login\login.html [ array (
+  0 => 'site_info',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:12+08:00 ] 127.0.0.1 GET /captcha/new.html?height=35&width=107&font_size=14
+[ info ] shequ.cn/captcha/new.html?height=35&width=107&font_size=14 [运行时间：0.121928s][吞吐率：8.20req/s] [内存消耗：1,808.09kb] [文件加载：40]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\cmf\\controller\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'height' => '35',
+  'width' => '107',
+  'font_size' => '14',
+)
+[ info ] [ RUN ] cmf\controller\CaptchaController->index[ E:\project\php\shequ\base\controller\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:12+08:00 ] 127.0.0.1 GET /captcha/new.html?height=35&width=107&font_size=14&time=0.9553772197422692
+[ info ] shequ.cn/captcha/new.html?height=35&width=107&font_size=14&time=0.9553772197422692 [运行时间：0.049490s][吞吐率：20.21req/s] [内存消耗：1,808.34kb] [文件加载：40]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\cmf\\controller\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'height' => '35',
+  'width' => '107',
+  'font_size' => '14',
+  'time' => '0.9553772197422692',
+)
+[ info ] [ RUN ] cmf\controller\CaptchaController->index[ E:\project\php\shequ\base\controller\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:13+08:00 ] 127.0.0.1 GET /captcha/new.html?height=35&width=107&font_size=14&time=0.35406662087954266
+[ info ] shequ.cn/captcha/new.html?height=35&width=107&font_size=14&time=0.35406662087954266 [运行时间：0.042926s][吞吐率：23.30req/s] [内存消耗：1,808.34kb] [文件加载：40]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\cmf\\controller\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'height' => '35',
+  'width' => '107',
+  'font_size' => '14',
+  'time' => '0.35406662087954266',
+)
+[ info ] [ RUN ] cmf\controller\CaptchaController->index[ E:\project\php\shequ\base\controller\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:13+08:00 ] 127.0.0.1 GET /captcha/new.html?height=35&width=107&font_size=14&time=0.6017134432881242
+[ info ] shequ.cn/captcha/new.html?height=35&width=107&font_size=14&time=0.6017134432881242 [运行时间：0.044366s][吞吐率：22.54req/s] [内存消耗：1,808.34kb] [文件加载：40]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\cmf\\controller\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'height' => '35',
+  'width' => '107',
+  'font_size' => '14',
+  'time' => '0.6017134432881242',
+)
+[ info ] [ RUN ] cmf\controller\CaptchaController->index[ E:\project\php\shequ\base\controller\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:13+08:00 ] 127.0.0.1 GET /captcha/new.html?height=35&width=107&font_size=14&time=0.09204743394721215
+[ info ] shequ.cn/captcha/new.html?height=35&width=107&font_size=14&time=0.09204743394721215 [运行时间：0.061325s][吞吐率：16.31req/s] [内存消耗：1,808.34kb] [文件加载：40]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\cmf\\controller\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'height' => '35',
+  'width' => '107',
+  'font_size' => '14',
+  'time' => '0.09204743394721215',
+)
+[ info ] [ RUN ] cmf\controller\CaptchaController->index[ E:\project\php\shequ\base\controller\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:24+08:00 ] 127.0.0.1 POST /index/login/dologin.html
+[ info ] shequ.cn/index/login/dologin.html [运行时间：0.172462s][吞吐率：5.80req/s] [内存消耗：3,093.69kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'origin' => 'http://shequ.cn',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '56',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'ua7n',
+  '_captcha_id' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\LoginController->doLogin[ E:\project\php\shequ\app\index\controller\LoginController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:28+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] shequ.cn/index/index/index.html [运行时间：0.135139s][吞吐率：7.40req/s] [内存消耗：3,305.95kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin; username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:31+08:00 ] 127.0.0.1 GET /index/index/projectlist.html
+[ info ] shequ.cn/index/index/projectlist.html [运行时间：0.126934s][吞吐率：7.88req/s] [内存消耗：3,262.87kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'projectlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin; username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->projectlist[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\projectlist.html [ array (
+  0 => 'site_info',
+  1 => 'projectlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:32+08:00 ] 127.0.0.1 GET /index/index/project.html?id=5
+[ info ] shequ.cn/index/index/project.html?id=5 [运行时间：0.118051s][吞吐率：8.47req/s] [内存消耗：3,258.55kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'project',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin; username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/index/projectlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->project[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\project.html [ array (
+  0 => 'site_info',
+  1 => 'comment',
+  2 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:40+08:00 ] 127.0.0.1 POST /index/user/addly.html
+[ info ] shequ.cn/index/user/addly.html [运行时间：0.133681s][吞吐率：7.48req/s] [内存消耗：2,954.78kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'addly',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin; username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/index/project.html?id=5',
+  'origin' => 'http://shequ.cn',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '5',
+  'comment' => 'liuyan',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\UserController->addly[ E:\project\php\shequ\app\index\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:41+08:00 ] 127.0.0.1 GET /index/index/project.html?id=5
+[ info ] shequ.cn/index/index/project.html?id=5 [运行时间：0.215335s][吞吐率：4.64req/s] [内存消耗：3,259.84kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'project',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin; username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/index/project.html?id=5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->project[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\project.html [ array (
+  0 => 'site_info',
+  1 => 'comment',
+  2 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-02-19T13:47:47+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] shequ.cn/index/index/index.html [运行时间：0.132666s][吞吐率：7.54req/s] [内存消耗：3,306.00kb] [文件加载：63]
+[ info ] [ LANG ] E:\project\php\shequ\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=nc1l28n0no83noundlpa20umam; thinkphp_show_page_trace=0|0; admin_username=admin; username=admin',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shequ.cn/index/index/project.html?id=5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shequ.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\project\php\shequ\app\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] themes/home/index\index\index.html [ array (
+  0 => 'site_info',
+  1 => 'project',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
